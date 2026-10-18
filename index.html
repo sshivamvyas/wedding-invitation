@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#681f27">
+<title>Wedding Programme | With Love</title>
+<style>
+:root{--wine:#681f27;--green:#253d2d;--gold:#b18a43;--cream:#fff8e9;--ink:#35291f}
+*{box-sizing:border-box}
+body{margin:0;background:#f4ead5;color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:auto;padding:18px}
+.card{position:relative;background:var(--cream);border:1px solid var(--gold);outline:4px double #d2b56e;outline-offset:-9px;border-radius:20px;padding:32px 20px 26px;box-shadow:0 12px 36px #4b32151a}
+.ornament{text-align:center;color:var(--gold);font-size:25px;letter-spacing:8px}
+.invocation{text-align:center;color:var(--wine);font-size:15px;font-style:italic;margin-top:12px}
+h1{text-align:center;color:var(--wine);font-size:clamp(32px,7vw,52px);font-weight:normal;font-style:italic;margin:12px 0 5px}
+.subtitle{text-align:center;color:var(--green);letter-spacing:3px;text-transform:uppercase;font-size:11px;margin-bottom:25px}
+.intro{text-align:center;line-height:1.6;font-size:15px;margin:0 auto 24px;max-width:440px}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:440px;margin:18px auto 28px}
+.countdown div{background:#f1e4c8;border:1px solid #dfc891;border-radius:10px;text-align:center;padding:12px 4px}
+.countdown strong{display:block;font-size:25px;color:var(--wine);font-weight:normal}
+.countdown span{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--green)}
+.event{border-top:1px solid #d9c28d;padding:20px 4px;text-align:center}
+.event h2{font-size:21px;font-weight:normal;color:var(--wine);letter-spacing:1px;margin:0 0 10px}
+.date{font-weight:bold;color:var(--green);font-size:16px}
+.time{margin:6px 0 9px;font-size:15px}
+.venue{font-weight:bold;font-size:16px;line-height:1.4}
+.address{font-size:14px;line-height:1.5;margin-top:3px}
+.map{display:inline-block;margin-top:12px;padding:9px 15px;border:1px solid var(--gold);border-radius:20px;color:var(--wine);text-decoration:none;font-size:13px}
+.map:hover{background:#f1e4c8}
+.footer{text-align:center;color:var(--green);font-style:italic;line-height:1.6;margin-top:18px}
+.note{font-family:Arial,sans-serif;text-align:center;color:#766a5b;font-size:11px;margin:18px auto 0;max-width:450px}
+@media(min-width:560px){.card{padding:42px 50px}.event{padding:24px 8px}}
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+  <div class="ornament">❧ ✦ ❧</div>
+  <div class="invocation">|| Shree Ganeshay Namah ||</div>
+  <h1>Wedding Programme</h1>
+  <div class="subtitle">A celebration of love & family</div>
+  <p class="intro">With the blessings of our elders and the grace of the Almighty, we warmly invite you to join us for the joyous wedding celebrations.</p>
+  <div class="countdown" aria-label="Countdown to wedding day">
+    <div><strong id="days">—</strong><span>Days</span></div>
+    <div><strong id="hours">—</strong><span>Hours</span></div>
+    <div><strong id="minutes">—</strong><span>Minutes</span></div>
+    <div><strong id="seconds">—</strong><span>Seconds</span></div>
+  </div>
+
+  <section class="event">
+    <h2>Lagna Lekhan</h2>
+    <div class="date">Sunday, 29 November 2026</div>
+    <div class="time">10:00 AM onwards</div>
+    <div class="venue">At Our Residence</div>
+    <div class="address">House No. 67, Dharam Lok Nagar,<br>Maholi Road, Mathura</div>
+    <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/GvE1Uj63PfZhGa4NA">Open area in Maps ↗</a>
+    <div class="address">Mathura</div>
+  </section>
+
+  <section class="event">
+    <h2>Haldi Ceremony</h2>
+    <div class="date">Wednesday, 2 December 2026</div>
+    <div class="time">11:00 AM onwards</div>
+    <div class="venue">Ram Siya Vatika</div>
+    <div class="address">BSA Road, Mathura</div>
+    <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/bhQqr35L1DZZhZjm7">Open venue in Maps ↗</a>
+  </section>
+
+  <section class="event">
+    <h2>Mehendi &amp; Sangeet</h2>
+    <div class="date">Wednesday, 2 December 2026</div>
+    <div class="time">6:00 PM onwards</div>
+    <div class="venue">At Our Residence</div>
+    <div class="address">House No. 67, Dharam Lok Nagar,<br>Maholi Road, Mathura</div>
+    <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/GvE1Uj63PfZhGa4NA">Open area in Maps ↗</a>
+  </section>
+
+  <section class="event">
+    <h2>The Wedding Celebration</h2>
+    <div class="date">Thursday, 3 December 2026</div>
+    <div class="time">Baraat Swagat &amp; Wedding Dinner · 7:00 PM onwards</div>
+    <div class="venue">Mangalam Green Resort</div>
+    <div class="address">Govardhan Chauraha, Mathura</div>
+    <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/ZwiuTxNm6Q3GdpJy8">Open venue in Maps ↗</a>
+  </section>
+
+  <div class="ornament">❧ ✦ ❧</div>
+  <div class="footer">Your presence and blessings will make our celebrations truly special.</div>
+</div>
+<p class="note">Please check the venue pins before printing the final QR code. Residence map search is approximate and may not pinpoint the house.</p>
+</main>
+<script>
+const target = new Date("2026-12-03T19:00:00+05:30").getTime();
+function tick(){
+  let diff=Math.max(0,target-Date.now());
+  const d=Math.floor(diff/86400000); diff%=86400000;
+  const h=Math.floor(diff/3600000); diff%=3600000;
+  const m=Math.floor(diff/60000); const s=Math.floor((diff%60000)/1000);
+  document.getElementById("days").textContent=d;
+  document.getElementById("hours").textContent=String(h).padStart(2,"0");
+  document.getElementById("minutes").textContent=String(m).padStart(2,"0");
+  document.getElementById("seconds").textContent=String(s).padStart(2,"0");
+}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
